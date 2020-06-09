@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(80, 99, 117);
+}
+
+header h1 {
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  padding: 50px;
+}
