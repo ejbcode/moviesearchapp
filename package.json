@@ -2,7 +2,7 @@
   "name": "moviesearch",
   "version": "0.1.0",
   "private": true,
-  "hompage": "https://ejb3t.github.io/moviesearchapp/",
+  "homepage": "https://ejb3t.github.io/moviesearchapp/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
