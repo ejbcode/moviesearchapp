@@ -23,6 +23,6 @@ const Search = ({ setInputMovie }) => {
   );
 };
 export default Search;
-Search.propTypes = {
-  setInputMovie: PropTypes.objectOf(PropTypes.object).isRequired,
-};
+// Search.propTypes = {
+//   setInputMovie: PropTypes.objectOf(PropTypes.object).isRequired,
+// };
