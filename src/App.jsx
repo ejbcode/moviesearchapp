@@ -8,7 +8,7 @@ import NotFound from './components/NotFound';
 function App() {
   const [inputMovie, setInputMovie] = useState('');
   const [movies, setMovies] = useState({});
-  const API_URL = 'http://www.omdbapi.com/?apikey=2c07745b&type=Movie&s=';
+  const API_URL = 'https://www.omdbapi.com/?apikey=2c07745b&type=Movie&s=';
 
   useEffect(() => {
     axios.get(`${API_URL}${inputMovie}`)
