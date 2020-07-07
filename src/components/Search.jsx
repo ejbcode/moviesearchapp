@@ -1,8 +1,8 @@
-import React, { useState } from "react";
-import PropTypes from "prop-types";
+import React, { useState } from 'react';
+import PropTypes from 'prop-types';
 
 const Search = ({ setInputMovie }) => {
-  const [search, setSearch] = useState("");
+  const [search, setSearch] = useState('');
   const handleChange = (event) => {
     setSearch(event.target.value);
   };
