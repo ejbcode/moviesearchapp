@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
-import PropTypes from 'prop-types';
+import React, { useState } from "react";
+import PropTypes from "prop-types";
 
 const Search = ({ setInputMovie }) => {
-  const [search, setSearch] = useState('');
+  const [search, setSearch] = useState("");
   const handleChange = (event) => {
     setSearch(event.target.value);
   };
@@ -15,8 +15,16 @@ const Search = ({ setInputMovie }) => {
     <div>
       <form onSubmit={handleSubmit}>
         <div className="form__group field">
-          <input className="form__field" required name="search" type="text" onChange={handleChange} />
-          <label htmlFor="search" className="form__label">Find a Movie</label>
+          <input
+            className="form__field"
+            required
+            name="search"
+            type="text"
+            onChange={handleChange}
+          />
+          <label htmlFor="search" className="form__label">
+            Find a Movie...
+          </label>
         </div>
       </form>
     </div>
